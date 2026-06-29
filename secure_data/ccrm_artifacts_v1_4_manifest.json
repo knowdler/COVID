@@ -1,0 +1,73 @@
+{
+  "schema_version": "aisphere.ccrm.secure_manifest.v1.4",
+  "project": "CCRM Long COVID / AISPHERE",
+  "version": "v1.4",
+  "created_at": "2026-06-29T19:58:47+00:00",
+  "encrypted": true,
+  "contains_plaintext": false,
+  "access_group": "Equipo AISPHERE",
+  "vault": {
+    "repo_path": "secure_data/ccrm_artifacts_v1_4.db.enc",
+    "local_path_at_creation": "/Users/knowdler/Proyectos/CCRM_LongCOVID_v1_4/secure_data/ccrm_artifacts_v1_4.db.enc",
+    "filename": "ccrm_artifacts_v1_4.db.enc",
+    "sha256_encrypted": "5f8d00bfa489986c996cdb01f5a0587900184718a1f8759dcbda96b2734ebe3d",
+    "size_bytes": 20734,
+    "encryption": "ChaCha20 + HMAC-SHA256, stdlib implementation",
+    "aad": "AISPHERE_CCRM_ARTIFACT_VAULT_V1_3_STD_LIB",
+    "magic": "AISPHERE_CCRM_VAULT_STD_V13"
+  },
+  "key_manager": {
+    "key_manager_version": "AISPHERE_CCRM_KEY_MANAGER_v1_4_PAIRWISE",
+    "fingerprint_version": "AISPHERE_CCRM_KEY_FINGERPRINT_v1_4",
+    "key_env_name": "AISPHERE_CCRM_MASTER_KEY",
+    "keychain_service": "AISPHERE_CCRM_VAULT",
+    "keychain_account": "AISPHERE_CCRM_MASTER_KEY",
+    "key_location": "macos_keychain",
+    "key_fingerprint_public_sha256": "a03558534171f26c90353d174b85e1e55d827fd91ff9f19997f618e75bb98719",
+    "key_material_disclosure": "never: manifest stores only non-secret fingerprint",
+    "rotation_policy": "new vault generation after deliberate key rotation; never overwrite without audit"
+  },
+  "artifact_count": 3,
+  "artifact_types": {
+    "json": 3
+  },
+  "artifact_index": [
+    {
+      "artifact_id": "art_edd1ff97622033f9465fcf6d",
+      "artifact_type": "json",
+      "filename_original": "final_secure_export_summary.json",
+      "size_bytes": 533,
+      "created_at": "2026-06-29T19:58:44+00:00",
+      "sha256_plaintext": "a38b52b1194e34fbedea34a7c8b99c96dd63e43ebd5f18f0dd1562ec8e9afb94"
+    },
+    {
+      "artifact_id": "art_25eb01615ae0e5261825c9b3",
+      "artifact_type": "json",
+      "filename_original": "final_secure_export_summary_v1_4.json",
+      "size_bytes": 530,
+      "created_at": "2026-06-29T19:58:45+00:00",
+      "sha256_plaintext": "fa88ade34f91d839914bca6ed18d67b185f7dfad568758489971da84c7d0e12b"
+    },
+    {
+      "artifact_id": "art_5982289a5c26040e49f5c55d",
+      "artifact_type": "json",
+      "filename_original": "vault_verification_certificate_v1_4.json",
+      "size_bytes": 684,
+      "created_at": "2026-06-29T19:58:46+00:00",
+      "sha256_plaintext": "52105d76e9a27db0ec7732dd7f2ec83c5535b93a496edbad5f2cbcf0c1df3a57"
+    }
+  ],
+  "reproducibility": {
+    "required_steps": [
+      "download vault and manifest from GitHub",
+      "verify encrypted vault SHA-256 against manifest",
+      "verify active local key fingerprint against manifest key_manager",
+      "decrypt vault locally",
+      "open restored SQLite database",
+      "verify internal artifact SHA-256 values",
+      "write local restore audit report"
+    ],
+    "restore_audit_schema_version": "aisphere.ccrm.restore_audit.v1.4"
+  },
+  "security_note": "Manifest público: no incluye clave, payloads, tokens, previews ni artefactos en claro."
+}
