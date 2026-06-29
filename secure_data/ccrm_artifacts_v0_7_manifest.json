@@ -6,11 +6,11 @@
   "contains_plaintext": false,
   "access_group": "Equipo AISPHERE",
   "key_name": "AISPHERE_CCRM_MASTER_KEY",
-  "artifact_count": 8,
+  "artifact_count": 9,
   "artifact_types": {
-    "json": 8
+    "json": 9
   },
-  "created_at": "2026-06-29T16:32:09+00:00",
+  "created_at": "2026-06-29T16:32:15+00:00",
   "encryption": "ChaCha20 + HMAC-SHA256, stdlib implementation",
   "note": "Manifest público sin payloads y sin clave."
 }
