@@ -1,0 +1,121 @@
+{
+  "schema_version": "aisphere.ccrm.secure_manifest.v2.0",
+  "project": "CCRM Long COVID / AISPHERE",
+  "version": "v2.0",
+  "created_at": "2026-06-30T21:48:06+00:00",
+  "encrypted": true,
+  "contains_plaintext": false,
+  "access_group": "Equipo AISPHERE",
+  "vault": {
+    "repo_path": "secure_data/ccrm_artifacts_v2_0.db.enc",
+    "local_path_at_creation": "/Users/knowdler/Proyectos/CCRM_LongCOVID_ESGOntPlus_v2_0/secure_data/ccrm_artifacts_v2_0.db.enc",
+    "filename": "ccrm_artifacts_v2_0.db.enc",
+    "sha256_encrypted": "f3b7e97f63327f9bdbc5c5260c905c97b52ed800b7328abf37e4e4bd382566bd",
+    "size_bytes": 151806,
+    "encryption": "ChaCha20 + HMAC-SHA256, stdlib implementation",
+    "aad": "AISPHERE_CCRM_ARTIFACT_VAULT_V1_3_STD_LIB",
+    "magic": "AISPHERE_CCRM_VAULT_STD_V13"
+  },
+  "key_manager": {
+    "key_manager_version": "AISPHERE_CCRM_KEY_MANAGER_v2_0_PAIRWISE",
+    "fingerprint_version": "AISPHERE_CCRM_KEY_FINGERPRINT_v2_0",
+    "key_env_name": "AISPHERE_CCRM_MASTER_KEY",
+    "keychain_service": "AISPHERE_CCRM_VAULT",
+    "keychain_account": "AISPHERE_CCRM_MASTER_KEY",
+    "key_location": "macos_keychain",
+    "key_fingerprint_public_sha256": "e5047c64caf039e4675805cdcc5cec1df6c444f17aa8671c9052fb17e9c5713e",
+    "key_material_disclosure": "never: manifest stores only non-secret fingerprint",
+    "rotation_policy": "new vault generation after deliberate key rotation; never overwrite without audit"
+  },
+  "artifact_count": 9,
+  "artifact_types": {
+    "json": 9
+  },
+  "artifact_index": [
+    {
+      "artifact_id": "art_59c928d39ffbc50b482a762a",
+      "artifact_type": "json",
+      "filename_original": "esgontplus_v2_0_policy_and_load_status.json",
+      "size_bytes": 564,
+      "created_at": "2026-06-30T21:43:47+00:00",
+      "sha256_plaintext": "34635eab1b5e6496bfdb18f08350dae05a2c6b0f9e040625374253a78a7c4b7e"
+    },
+    {
+      "artifact_id": "art_f23dd82bfccb836694fb7b82",
+      "artifact_type": "json",
+      "filename_original": "esg_covid_correlations_v2_0.json",
+      "size_bytes": 2076,
+      "created_at": "2026-06-30T21:45:52+00:00",
+      "sha256_plaintext": "6bf5492aa6486a5fb7411a30cb2039c2292af796ef0d5bf561822922228e208a"
+    },
+    {
+      "artifact_id": "art_adfece8dfc54698e17dafe98",
+      "artifact_type": "json",
+      "filename_original": "engram_samira_covid_esgontplus_v2_0.json",
+      "size_bytes": 8105,
+      "created_at": "2026-06-30T21:46:37+00:00",
+      "sha256_plaintext": "7d4a87405895d4d12205505c892d633daa535ba69eaf09aae09e37447d622c07"
+    },
+    {
+      "artifact_id": "art_303b1ff49348bba1ade82a8f",
+      "artifact_type": "json",
+      "filename_original": "sustainability_dashboard_status_v2_0.json",
+      "size_bytes": 196,
+      "created_at": "2026-06-30T21:46:49+00:00",
+      "sha256_plaintext": "17309826ed8a43c5261f485cf8152f9b64b1f9f6a89356f295313d5492948ab6"
+    },
+    {
+      "artifact_id": "art_6a80981d5b146d6d282bb54f",
+      "artifact_type": "json",
+      "filename_original": "competency_queries_results_v2_0.json",
+      "size_bytes": 12220,
+      "created_at": "2026-06-30T21:46:55+00:00",
+      "sha256_plaintext": "602c4f49677d7aca59f7cddc6470f91f4aecd23e9a3473e1a2dabaf9a14b220a"
+    },
+    {
+      "artifact_id": "art_7d2c0b0dac5473d385567bfd",
+      "artifact_type": "json",
+      "filename_original": "final_status_esgontplus_v2_0.json",
+      "size_bytes": 2635,
+      "created_at": "2026-06-30T21:47:47+00:00",
+      "sha256_plaintext": "daab4b8a6173b9cd810fb243119e949de0f9c71e635427d6b687d347e3d1ad2f"
+    },
+    {
+      "artifact_id": "art_65e7e1e24bcf8fba293243a8",
+      "artifact_type": "json",
+      "filename_original": "final_secure_export_summary.json",
+      "size_bytes": 555,
+      "created_at": "2026-06-30T21:47:51+00:00",
+      "sha256_plaintext": "b7fc06bb894467b1760acf055d0ebb947680e94d2e69fbdfc5c1e930d8ebda1a"
+    },
+    {
+      "artifact_id": "art_5af7a9597a83cd88e9006b92",
+      "artifact_type": "json",
+      "filename_original": "final_secure_export_summary_v2_0.json",
+      "size_bytes": 552,
+      "created_at": "2026-06-30T21:47:57+00:00",
+      "sha256_plaintext": "924318b57cc6ea98b4e176b467f0a7a462b7a0bcf7779a20c31f3bb56f4ffbab"
+    },
+    {
+      "artifact_id": "art_dd396101a682d63a8a5fabb7",
+      "artifact_type": "json",
+      "filename_original": "vault_verification_certificate_v2_0.json",
+      "size_bytes": 706,
+      "created_at": "2026-06-30T21:48:03+00:00",
+      "sha256_plaintext": "016ac87eec9f6e11a98e907e3fd3528b391468393d9dbb78910a2ddfbfd7736c"
+    }
+  ],
+  "reproducibility": {
+    "required_steps": [
+      "download vault and manifest from GitHub",
+      "verify encrypted vault SHA-256 against manifest",
+      "verify active local key fingerprint against manifest key_manager",
+      "decrypt vault locally",
+      "open restored SQLite database",
+      "verify internal artifact SHA-256 values",
+      "write local restore audit report"
+    ],
+    "restore_audit_schema_version": "aisphere.ccrm.restore_audit.v2.0"
+  },
+  "security_note": "Manifest público: no incluye clave, payloads, tokens, previews ni artefactos en claro."
+}
