@@ -1,0 +1,169 @@
+{
+  "schema_version": "aisphere.ccrm.secure_manifest.v2.0GA",
+  "project": "CCRM Long COVID / AISPHERE",
+  "version": "v2.0GA",
+  "created_at": "2026-06-30T23:07:21+00:00",
+  "encrypted": true,
+  "contains_plaintext": false,
+  "access_group": "Equipo AISPHERE",
+  "vault": {
+    "repo_path": "secure_data/ccrm_artifacts_v2_0GA.db.enc",
+    "local_path_at_creation": "/Users/knowdler/Proyectos/CCRM_LongCOVID_ESGOntPlus_v2_0GA/secure_data/ccrm_artifacts_v2_0GA.db.enc",
+    "filename": "ccrm_artifacts_v2_0GA.db.enc",
+    "sha256_encrypted": "8fbaf751cbebd54b52312f23797bc0a1e80088318f7121d88e17ccee238f7c4e",
+    "size_bytes": 307454,
+    "encryption": "ChaCha20 + HMAC-SHA256, stdlib implementation",
+    "aad": "AISPHERE_CCRM_ARTIFACT_VAULT_V1_3_STD_LIB",
+    "magic": "AISPHERE_CCRM_VAULT_STD_V13"
+  },
+  "key_manager": {
+    "key_manager_version": "AISPHERE_CCRM_KEY_MANAGER_v2_0GA_PAIRWISE",
+    "fingerprint_version": "AISPHERE_CCRM_KEY_FINGERPRINT_v2_0GA",
+    "key_env_name": "AISPHERE_CCRM_MASTER_KEY",
+    "keychain_service": "AISPHERE_CCRM_VAULT",
+    "keychain_account": "AISPHERE_CCRM_MASTER_KEY",
+    "key_location": "macos_keychain",
+    "key_fingerprint_public_sha256": "1adc5b0e88353bcec5a3d08740c1b021dae7b30d462904498000bd2751a4f00f",
+    "key_material_disclosure": "never: manifest stores only non-secret fingerprint",
+    "rotation_policy": "new vault generation after deliberate key rotation; never overwrite without audit"
+  },
+  "artifact_count": 15,
+  "artifact_types": {
+    "json": 15
+  },
+  "artifact_index": [
+    {
+      "artifact_id": "art_493f92124fb724df03bf58a7",
+      "artifact_type": "json",
+      "filename_original": "esgontplus_v2_0_policy_and_load_status.json",
+      "size_bytes": 564,
+      "created_at": "2026-06-30T22:40:51+00:00",
+      "sha256_plaintext": "bd1ba64dedea769938ea24980b23866f858a977b00bdece0c168127754f3298d"
+    },
+    {
+      "artifact_id": "art_18f86ef9a8ea5fedf16c6356",
+      "artifact_type": "json",
+      "filename_original": "engram_samira_covid_esgontplus_v2_0.json",
+      "size_bytes": 8105,
+      "created_at": "2026-06-30T22:44:43+00:00",
+      "sha256_plaintext": "2127fbc4492485fb8b9a1ee386523909a249f7f98d30736fef2b2d9f9ab17379"
+    },
+    {
+      "artifact_id": "art_2c4dd8fc12081c09a8a56968",
+      "artifact_type": "json",
+      "filename_original": "esgontplus_v2_0_policy_and_load_status.json",
+      "size_bytes": 564,
+      "created_at": "2026-06-30T23:02:59+00:00",
+      "sha256_plaintext": "9dde627ea03a5cc156c60ff1f519156e4186800055bc591885e191618831a0ec"
+    },
+    {
+      "artifact_id": "art_c7da140c11e333965bfaf716",
+      "artifact_type": "json",
+      "filename_original": "esg_covid_correlations_v2_0.json",
+      "size_bytes": 2076,
+      "created_at": "2026-06-30T23:03:54+00:00",
+      "sha256_plaintext": "6bf5492aa6486a5fb7411a30cb2039c2292af796ef0d5bf561822922228e208a"
+    },
+    {
+      "artifact_id": "art_a5f4fdaeeb1b6541ea31597c",
+      "artifact_type": "json",
+      "filename_original": "engram_samira_covid_esgontplus_v2_0.json",
+      "size_bytes": 8105,
+      "created_at": "2026-06-30T23:04:41+00:00",
+      "sha256_plaintext": "4ce0b7168fff4ddda1ba8edd8ddd88964e9bab902235b199f94c9eb9adc7ba20"
+    },
+    {
+      "artifact_id": "art_a77beffabc2d7fa602c13332",
+      "artifact_type": "json",
+      "filename_original": "sustainability_dashboard_status_v2_0.json",
+      "size_bytes": 196,
+      "created_at": "2026-06-30T23:04:54+00:00",
+      "sha256_plaintext": "17309826ed8a43c5261f485cf8152f9b64b1f9f6a89356f295313d5492948ab6"
+    },
+    {
+      "artifact_id": "art_3242c9847861fe2bba871a04",
+      "artifact_type": "json",
+      "filename_original": "competency_queries_results_v2_0.json",
+      "size_bytes": 12220,
+      "created_at": "2026-06-30T23:05:00+00:00",
+      "sha256_plaintext": "602c4f49677d7aca59f7cddc6470f91f4aecd23e9a3473e1a2dabaf9a14b220a"
+    },
+    {
+      "artifact_id": "art_a5c6816ead613ea051b3588c",
+      "artifact_type": "json",
+      "filename_original": "ga_clinical_recommendation_v2_0GA.json",
+      "size_bytes": 42694,
+      "created_at": "2026-06-30T23:05:10+00:00",
+      "sha256_plaintext": "619ac4f8e44e530fb7f22e6af2ce7ae16c361fae95b29d8a4adc2a9f9be24220"
+    },
+    {
+      "artifact_id": "art_8b654220c2d2246fcf9a6bf7",
+      "artifact_type": "json",
+      "filename_original": "consulta_maria_soporte_GA_v2_0GA.json",
+      "size_bytes": 2124,
+      "created_at": "2026-06-30T23:05:12+00:00",
+      "sha256_plaintext": "27cd096817d62e9e1f8b67a357a2cab909cfffeaab6197a20506d7fe104aba5c"
+    },
+    {
+      "artifact_id": "art_c66e319ff8ab5914aae7cd76",
+      "artifact_type": "json",
+      "filename_original": "ga_engram_supplement_v2_0GA.json",
+      "size_bytes": 43083,
+      "created_at": "2026-06-30T23:05:31+00:00",
+      "sha256_plaintext": "37fc8661cacd7f78e0a77005f4e1b81352b2ba7cad1dcd353483549456b4e9b9"
+    },
+    {
+      "artifact_id": "art_e1ed97e4882618776487530c",
+      "artifact_type": "json",
+      "filename_original": "ga_certificate_v2_0GA.json",
+      "size_bytes": 521,
+      "created_at": "2026-06-30T23:05:34+00:00",
+      "sha256_plaintext": "62b5b75ac33bd0a5948ee01bafe910d74a7b07680c11bf0be90f6addc919b818"
+    },
+    {
+      "artifact_id": "art_05ce7e3e42f363f4dfc1f74f",
+      "artifact_type": "json",
+      "filename_original": "final_status_esgontplus_v2_0.json",
+      "size_bytes": 2637,
+      "created_at": "2026-06-30T23:06:39+00:00",
+      "sha256_plaintext": "9f2a0885f7347717c50cfad57f57b88353cd9078efa486acd83cf80b7c758953"
+    },
+    {
+      "artifact_id": "art_d4b042913a8fcfc6a0ceb2e2",
+      "artifact_type": "json",
+      "filename_original": "final_secure_export_summary.json",
+      "size_bytes": 563,
+      "created_at": "2026-06-30T23:06:46+00:00",
+      "sha256_plaintext": "cd908e430bb39c153f696991b7a5ce1a28a7a5679c1895b3385c29e5c2a4fe72"
+    },
+    {
+      "artifact_id": "art_0d82d80f7e135b482a2b302f",
+      "artifact_type": "json",
+      "filename_original": "final_secure_export_summary_v2_0.json",
+      "size_bytes": 560,
+      "created_at": "2026-06-30T23:06:57+00:00",
+      "sha256_plaintext": "e6196818bbe273a6634cc1bf6c7109523c7ae9a74c2ec69349af8cddae4ffe9b"
+    },
+    {
+      "artifact_id": "art_9ab9619bc4b416d259814602",
+      "artifact_type": "json",
+      "filename_original": "vault_verification_certificate_v2_0.json",
+      "size_bytes": 716,
+      "created_at": "2026-06-30T23:07:12+00:00",
+      "sha256_plaintext": "8a7952d5051dc66dc28c4a01742bc1ce04eb50dac4374d3e9fc3999c4d62c2e8"
+    }
+  ],
+  "reproducibility": {
+    "required_steps": [
+      "download vault and manifest from GitHub",
+      "verify encrypted vault SHA-256 against manifest",
+      "verify active local key fingerprint against manifest key_manager",
+      "decrypt vault locally",
+      "open restored SQLite database",
+      "verify internal artifact SHA-256 values",
+      "write local restore audit report"
+    ],
+    "restore_audit_schema_version": "aisphere.ccrm.restore_audit.v2.0GA"
+  },
+  "security_note": "Manifest público: no incluye clave, payloads, tokens, previews ni artefactos en claro."
+}
